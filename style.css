@@ -1,0 +1,146 @@
+/* google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Tenor+Sans&display=swap");
+
+body {
+  background-color: #949cb0;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  min-height: 100dvh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+button,
+a {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+  border: 0;
+  background: transparent;
+  font-weigth: 500;
+}
+
+.container {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: -1px 20px 4px -200px rgba(57, 42, 223, 0.39);
+  -webkit-box-shadow: -1px 20px 4px -200px rgba(57, 42, 223, 0.39);
+  -moz-box-shadow: -1px 20px 4px -200px rgba(57, 42, 223, 0.39);
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+img {
+  width: 100%;
+  object-fit: contain;
+}
+
+/* card */
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem; /* or 16px */
+  padding: 1.5rem 1.75rem;
+}
+
+h4.card-title {
+  font-size: 1.5rem;
+  color: #102b3f;
+}
+
+p.card-desc {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #102b3f;
+}
+
+.plan-details {
+  background: #faf9fe;
+  /* 	background: gray; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px 12px;
+}
+
+i.music-icon {
+  border-radius: 50%;
+  padding: 7px;
+  background: #dee4fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #727ea6;
+}
+
+div.plan-term {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+button.btn-change {
+  border: 0;
+  background: transparen;
+  text-decoration: underline;
+  color: #392adf;
+  font-weight: 700;
+}
+
+button.btn-payment {
+  color: white;
+  background: #392adf;
+  border: 2px solid #392adf;
+  padding: 14px 16px;
+  font-size: 1.25rem;
+  display: block;
+  width: 100%;
+  border-radius: 12px;
+  font-weight: 500;
+
+  transition: 0.3s ease all;
+}
+
+button.btn-payment:hover {
+  border: 2px solid #392adf;
+  background: transparent;
+  color: #392adf;
+}
+
+button.btn-cancel {
+  color: #68707e;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: 0.3s ease all;
+}
+
+button.btn-cancel:hover {
+  text-decoration: underline;
+  opacity: 0.75;
+}
